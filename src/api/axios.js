@@ -1,7 +1,7 @@
 import axios from 'axios'
 
 const API = axios.create({
-  baseURL: 'http://localhost:8080'
+    baseURL: 'https://farmlink-production-1e17.up.railway.app'
 })
 
 API.interceptors.request.use((config) => {
