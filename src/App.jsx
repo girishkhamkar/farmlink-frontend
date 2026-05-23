@@ -1,10 +1,10 @@
 import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import FarmerDashboard from './pages/FarmerDashboard'
-import CustomerDashboard from './pages/CustomerDashboard'
-import Chat from './pages/Chat'
-import AdminDashboard from './pages/AdminDashboard'
+import Login from './Pages/Login'
+import Register from './Pages/Register'
+import FarmerDashboard from './Pages/FarmerDashboard'
+import CustomerDashboard from './Pages/CustomerDashboard'
+import Chat from './Pages/Chat'
+import AdminDashboard from './Pages/AdminDashboard'
 
 function App() {
   return (
